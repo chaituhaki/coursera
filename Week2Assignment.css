@@ -1,0 +1,98 @@
+*{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+	text-align: center;
+	margin: 2%;
+}
+p{
+	padding: 5px;
+	text-align: justify;
+}
+div{
+	background: #E6E6EB;
+}
+#head1{
+	color: #F0EFE9;
+	background: #868BDB;
+}
+#head2{
+	color: #F2521D;
+	background: #F5BEAB;
+}
+#head3{
+	color: #04CF1F;
+	background: #BAF5AB;
+}
+@media (min-width: 992px) {
+	*{
+		margin: 1%;
+	}
+	div .innerDiv{
+		float: left;
+		border:2px solid #8BA7B0;
+		width:30%;
+}
+div .innerDiv h2{
+		margin: 0 0 0 70%;
+		position: relative;
+		padding: 3px;
+		float : right;
+		text-align: center;
+		border:2px solid #8BA7B0;
+		border-top-width: 1px;
+		border-right-width: 1px;
+		width: 30%;
+}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	*{
+		margin: 1%;
+	}
+	div .innerDiv{
+		float: left;
+		position: relative;
+		border: 2px solid #8BA7B0;
+		width:47.25%;
+		height: 23%;
+}
+	div .mdInnerDiv{
+		width: 97%;
+	}
+	#head3{
+		width:12.5%;
+	}
+	div .innerDiv h2{
+		margin: 0 0 0 87.5%;
+		position: relative;
+		padding: 3px;
+		float : right;
+		text-align: center;
+		border:2px solid #8BA7B0;
+		border-top-width: 1px;
+		border-right-width: 1px;
+		width: 25%;
+}
+}
+@media (max-width: 767px){
+	*{
+		margin: 3%;
+	}
+	div .innerDiv{
+		float: left;
+		position: relative;
+		border: 2px solid #8BA7B0;
+		width:100%;
+}
+	div .innerDiv h2{
+		margin: 0 0 0 70%;
+		position: relative;
+		padding: 3px;
+		float : right;
+		text-align: center;
+		border:2px solid #8BA7B0;
+		border-top-width: 1px;
+		border-right-width: 1px;
+		width: 34%;
+}d
+}
